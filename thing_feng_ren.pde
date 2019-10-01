@@ -19,7 +19,6 @@ void labelAxes(){
     text((int) i * 10, 30, 460 - i * 13 * 2.5); 
   }
   textSize(15);
-  text("Average temperatures in San Francisco by month",120,50);
   pushMatrix();
   translate(20, 360);
   rotate(-HALF_PI);
